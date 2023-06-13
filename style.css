@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'ABeeZee', Tahoma,  Verdana, sans-serif;
+    background-color: #1f1f23;
+    color: white;
+}
+
+/* navigation properties */
+
+.navigation{
+    position: fixed;
+    background-color: #0E0E10;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 55px;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+
+   
+}
+.logotwitch{
+width: 26px;
+height: 26px;
+margin-top: 5px;
+}
+.leftnav{
+    display: flex;
+    width: 10%;
+    margin-left: 20px;
+}
+.navh3{
+   
+    margin: 0px 50px;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+h3 a:hover {
+    color: #772CE8;
+    text-decoration: underline;
+}
+
+/* search propurtis */
+
+.centernav{
+    margin-right: 30px;
+    width: 30%; 
+  
+}
+.navsearch{
+   
+    width: 380px;
+    height: 38px;
+    border: 1px solid gray;
+    background-color:#0E0E10 ;
+    border-radius: 6px 0px 0px 6px;
+    position: fixed;
+}
+.navsearch, .placeholder{
+   text-align: left;
+   padding: 10px;
+   font-size: 16px;
+   font-weight: 600;
+}
+.searchicon{
+    width: 19px;
+    margin-left: 1%;
+}
+.searchbutton{
+    background-color: #35353B;
+    width: 33px;
+    height: 38px;
+    border:  solid #35353B;
+    border-radius: 0px 6px 6px 0px ;
+    margin-left: 83.5%;
+   
+   
+}
+
+/* login singup propurtys */
+
+.rightnav{
+   
+   margin-right: 0.5%;
+   
+    
+}
+.b1{
+    width: 65px;
+    height: 33px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: #35353B;
+}
+.b1:hover{
+    background-color: #414143;
+}
+.b2{
+    width: 75px;
+    height: 33px;
+    border-radius: 4px;
+    background-color: #772CE8;
+    border: none;
+    color: white;
+}
+.b2:hover{
+    background-color:#8943f1;
+}
+.b3{
+    width: 30px;
+    height: 33px;
+    border-radius: 4px;
+    color: white;
+    background-color: #0E0E10;
+    border: none;
+}
+.b3:hover{
+    background-color: #35353B;
+}
+
+
+
+/* heding container propurtis */
+
+.containerheding{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    margin-top: 100px;
+
+  
+}
+
+.heding1{
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 40px;
+    
+}
+.hedinbuttons{
+   margin-left: 2%;
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+   
+  
+}
+.HB{
+   
+    width: 19%;
+    height: 43px;
+    border-radius: 6px;
+    border: none;
+    background-color: #772CE8;
+    margin: 5px;
+   
+    
+}
+.HB:hover{
+    background-color: #9147ff;
+}
+.inhb{
+    width: 10%;
+}
+.HBLOGO{
+    position: relative;
+    right: 80px ;
+    bottom: 15px;
+    
+}
+a{
+    margin-top: 8px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    margin-bottom: 200px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+  /* this div is middelname  */
+
+.middelheding{
+    display: flex;
+    width: 100%;
+    margin-top: 26px;
+    padding-left: 1%;
+}
+
+h3{
+    margin-right: 8%;
+    color: white;
+    /* padding-bottom: 20px; */
+}
+h3 a:hover{
+    color: #772CE8;
+     text-decoration: underline;
+}
+
+/* < !-- this div is input button --> */
+
+.inputdivision{
+    display: flex;
+    width: 100%;
+   
+    height: 60px;
+    justify-content: space-between;
+    padding-top: 15px;
+    margin-top: 50px;
+}
+
+
+/* left  */
+
+
+.leftinput{
+    margin-left: 2%;
+   
+}
+.search-in-b {
+    height: 35px;
+    width: 230px;
+    text-align: left;
+    color: white;
+    background-color: #35353B;
+    border-radius: 4px;
+    border: 1px solid white;
+    padding-left: 10px;
+}
+input{
+    text-align: center;
+    background-color:#35353B ;
+    border: none;
+    
+}
+input::placeholder{
+color: white;
+font-weight: 200;
+}
+ 
+
+
+/* right  */
+
+
+.in-select{
+    height: 35px;
+    width: 200px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    background-color: #35353B;
+    border-radius: 4px;
+    border: 1px solid white;
+    padding-left: 10px;
+}
+
+
+.rightinput{
+    margin-right: 2%;
+}
+
+
+/* this div is Gameing card  */
+
+
+.Gameingcontainer{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 1%;
+}
+.gameimg{
+    width: 250px;
+    height: 320px;
+    
+    margin: 20px;
+}
+.img-game{
+    /* position: relative; */
+    width: 190px;
+    height: 250px;
+}
+
+.img-game:hover{
+    border-left: 7px solid #772CE8 ;
+    border-bottom: 7px solid #772CE8 ;
+    width: 200px;
+    
+}
+
+.GB{
+    margin: 2px;
+    width: 55px;
+    border-radius: 20px;
+    height: 20px;
+    color: white;
+    border: none;
+    background-color:#35353B;
+}
+p{
+    font-weight: 50;
+    font-size: 13px;
+    margin: 5px 0px;
+    color: white;
+}
+p:hover{
+    color: #772CE8;
+}
+h5{
+    font-size: 15px;
+    margin-top: 4px;
+    color: white;
+}
+h5:hover{
+    color: #772CE8;
+}
